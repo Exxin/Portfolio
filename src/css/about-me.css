@@ -242,7 +242,7 @@ main {
   width: 260px !important;
   margin-top: 32px;
   overflow: hidden;
-  border-radius: 55px;
+  border-radius: 50%;
 }
 
 .technologies-item {
