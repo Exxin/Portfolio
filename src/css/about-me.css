@@ -243,6 +243,7 @@ main {
   margin-top: 32px;
   overflow: hidden;
   border-radius: 60px;
+  background: linear-gradient(180deg, #1c2225 91%, transparent 101%);
 }
 
 .technologies-item {
