@@ -26,17 +26,17 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .container {
     min-width: 768px;
     padding-top: 84px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .footer {
-    min-width: 1440px;
+  /* .footer {
+    width: 1440px;
     padding-top: 164px;
-  }
+  } */
 }
 
 .wrapper {
