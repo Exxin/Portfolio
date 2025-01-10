@@ -6,6 +6,14 @@
   --main-text: #fafafa;
   --font-family: 'Inter Tight', sans-serif;
 }
+
+/* Блюр карток при наведенні з фокусом на одну */
+
+.list:hover > :not(:hover) {
+  filter: blur(5px);
+  opacity: .5;
+}
+
 .container {
   padding: 0 16px;
 }
@@ -105,6 +113,7 @@
 
   .benefits-list-item {
     width: calc(50% - 8px);
+    /* box-shadow: 0 0.5em 0.5em -0.4em #c6e327; */
   }
 
   .order {
@@ -114,9 +123,10 @@
     width: 768px;
   }
   .benefits-list-item:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em #c6e327;
+    /* box-shadow: 0 0.5em 0.5em -0.4em #c6e327; */
+    box-shadow: 0 0em 1.6em -0.7em #c6e327;
   }
-  
+
   .benefits-list-item{
     background: #242527;
     border-radius: 20px;
